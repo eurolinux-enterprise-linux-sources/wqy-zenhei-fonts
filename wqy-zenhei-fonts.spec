@@ -24,7 +24,7 @@ named "WenQuanYi Zen Hei Mono".
 
 Name:           %{fontname}-fonts
 Version:        0.9.46
-Release:        10%{?dist}
+Release:        11%{?dist}
 Summary:        WenQuanYi Zen Hei CJK Font
 
 Group:          User Interface/X
@@ -87,6 +87,9 @@ install -m 0755 -p %{SOURCE3} \
 
 
 %changelog
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 0.9.46-11
+- Mass rebuild 2013-12-27
+
 * Fri Feb 15 2013 Fedora Release Engineering <rel-eng@lists.fedoraproject.org> - 0.9.46-10
 - Rebuilt for https://fedoraproject.org/wiki/Fedora_19_Mass_Rebuild
 
